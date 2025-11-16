@@ -40,3 +40,10 @@ body {
   font-size: 1.3rem;
   margin-bottom: 0.3rem;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr; /* móvil: 1 columna */
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
