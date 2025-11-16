@@ -17,3 +17,8 @@ body {
   padding: 1.5rem;
 }
 
+.site-header {
+  background: radial-gradient(circle at top, #272a5a, #050509);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
