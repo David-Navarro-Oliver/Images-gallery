@@ -47,3 +47,14 @@ body {
   gap: 1.25rem;
   margin-top: 1rem;
 }
+
+.card {
+  background: #0c0f19;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.7);
+  transition:
+    transform 0.2s ease-out,
+    box-shadow 0.2s ease-out,
+    filter 0.2s ease-out;
+} 
