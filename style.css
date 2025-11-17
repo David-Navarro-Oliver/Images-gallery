@@ -42,11 +42,12 @@ body {
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: 1fr; /* móvil: 1 columna */
+  display: flex;
+  flex-wrap: wrap;
   gap: 1.25rem;
   margin-top: 1rem;
 }
+
 
 .card {
   background: #0c0f19;
